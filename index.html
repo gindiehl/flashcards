@@ -78,7 +78,17 @@
             </em>
           </p>
 
-          <p></p>
+          <p class="hide def" id="meth-def">
+            <em>noun</em><br>
+            JavaScript methods are the <strong>actions that can be performed on objects</strong>.
+            A JavaScript method is a <strong>property</strong> containing a function definition.<br>
+            <em>example:<br>
+              You create an object method with the following syntax:
+              methodName : function() { code lines }<br>
+              You access an object method with the following syntax:
+              objectName.methodName()
+            </em>
+          </p>
 
           <p class="hide def" id="arg-def">
             <em>noun</em><br>
@@ -93,7 +103,62 @@
 
           <p class="hide def" id="para-def">
             <em>noun</em><br>
-            A parameter in Javascript is similar to an argument in that it is passed within the parentesis of a function. <em>ex: name(param1,param2)</em>
+            A <strong>parameter</strong> in Javascript is similar to an argument in that it is passed within the parentesis of a function.<br>
+            <em>ex: name(param1,param2)</em>
+          </p>
+
+          <p class="hide def" id="ret-def">
+            <em>noun</em><br>
+            The <strong>return statement</strong> stops the execution of a function and returns a value from that function.<br>
+            <em>example:
+            Return the value of PI:<br>
+            function myFunction() {
+                return Math.PI;
+            }<br>
+            The result will be:
+            3.141592653589793</em>
+          </p>
+
+          <p class="hide def" id="chain-def">
+            <em>noun</em><br>
+            Chaining is a technique that allows us to run multiple jQuery commands, one after the other, on the same element(s).<br>
+            <strong>Tip: This way, browsers do not have to find the same element(s) more than once.</strong><br>
+            <em>To chain an action, you simply append the action to the previous action.<br>This example chains together the css(), slideUp(), and slideDown() methods.<br>The "p1" element first changes to red, then it slides up, and then it slides down:<br>$("#p1").css("color", "red").slideUp(2000).slideDown(2000);</em>
+          </p>
+
+          <p class="hide def" id="str-def">
+            <em>noun</em><br>
+            JavaScript <strong>strings</strong> are used for storing and manipulating text.<br>A JavaScript string simply stores a series of characters like "John Doe".<br>
+            A string can be any text inside quotes. You can use single or double quotes:<br>
+            <em>var carname = "Volvo XC60";<br>
+              var carname = 'Volvo XC60';</em>
+          </p>
+
+          <p class="hide def" id="boo-def">
+            <em>noun</em><br>
+            A JavaScript <strong>Boolean</strong> is a data type that represents one of two values: true or false.<br>
+            <em>(10 > 9) // also returns true<br>
+              10 > 9 // also returns true</em>
+          </p>
+
+          <p class="hide def" id="udf-def">
+            <em>noun</em><br>
+            The <strong>undefined property</strong> indicates that a variable has not been assigned a value.
+          </p>
+
+          <p class="hide def" id="nan-def">
+            <em>noun</em><br>
+            The <strong>NaN property</strong> represents "Not-a-Number" value. This property indicates that a value is not a legal number.<br>
+            The NaN property is the same as the Number.Nan property.<br>
+            <strong>Tip: Use the isNaN() global function to check if a value is a NaN value</strong>. <em>Syntax: "Number.NaN"</em>
+          </p>
+
+          <p class="hide def" id="esc-def">
+            <em>noun</em><br>
+            The <strong>escape()</strong> function encodes a string.
+            This function makes a string portable, so it can be transmitted across any network to any computer that supports ASCII characters.<br>
+            This function encodes special characters, with the exception of: * @ - _ + . /<br>
+            <em>Syntax: escape(string)</em>
           </p>
 
         <!-- end col 2 -->
