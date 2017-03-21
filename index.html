@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
         <!-- current version of jQuery as of March 20, 2017 -->
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="js/scripts.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <title>Flashcards</title>
@@ -21,24 +21,24 @@
           <ul>
             <li id="js-but">JavaScript (JS)</li>
             <li id="op-but">Operators</li>
-            <li>Variables</li>
-            <li>Variable naming conventions</li>
-            <li>Functions</li>
-            <li>Methods</li>
+            <li id="var-but">Variables</li>
+            <li id="vnc-but">Variable naming conventions</li>
+            <li id="func-but">Functions</li>
+            <li id="meth-but">Methods</li>
             <li id="arg-but">Arguments</li>
-            <li>Parameters</li>
-            <li>Return</li>
-            <li>Chaining methods</li>
-            <li>Strings</li>
-            <li>Booleans</li>
-            <li>Undefined</li>
-            <li>NaN</li>
-            <li>Escape</li>
-            <li>Alert</li>
-            <li>Comments</li>
-            <li>jQuery</li>
-            <li>Attributes</li>
-            <li>Effects/ Animation</li>
+            <li id="para-but">Parameters</li>
+            <li id="ret-but">Return</li>
+            <li id="chain-but">Chaining methods</li>
+            <li id="str-but">Strings</li>
+            <li id="boo-but">Booleans</li>
+            <li id="udf-but">Undefined</li>
+            <li id="nan-but">NaN</li>
+            <li id="esc-but">Escape</li>
+            <li id="art-but">Alert</li>
+            <li id="com-but">Comments</li>
+            <li id="jq-but">jQuery</li>
+            <li id="attr-but">Attributes</li>
+            <li id="eff-but">Effects/ Animation</li>
           </ul>
         <!-- end col 1 -->
         </div>
@@ -54,7 +54,46 @@
 
           <p class="hide def" id="op-def">
             <em>noun</em><br>
-            An <strong>JavaScript operators</strong> are used to assign values, compare values, perform arithmetic operations, and more.
+            An <strong>operator</strong> is used to assign values, compare values, perform arithmetic operations, and more.<br>
+            <em>some examples: + - * /</em>
+          </p>
+
+          <p class="hide def" id="var-def">
+            <em>noun</em><br>
+            Variables are <strong>containers</strong> for storing data values.
+          </p>
+
+          <p class="hide def" id="vnc-def">
+            <em>noun</em><br>
+            In computer programming, a <strong>naming convention</strong> is a set of rules for choosing the character sequence to be used for identifiers which denote <strong>variables, types, functions, and other entities</strong> in source code and documentation.
+          </p>
+
+          <p class="hide def" id="func-def">
+            <em>noun</em><br>
+            A JavaScript function is a block of code designed to <strong>perform a particular task</strong>. A JavaScript function is executed when "something" <strong>invokes it</strong> (calls it).<br>
+            <em>example:<br>
+              function myFunction(p1, p2) {<br>
+                  return p1 * p2;  // The function returns the product of p1 and p2<br>
+              }
+            </em>
+          </p>
+
+          <p></p>
+
+          <p class="hide def" id="arg-def">
+            <em>noun</em><br>
+            The arguments object is a <strong>local variable</strong> available within all functions. You can refer to a function's arguments within the function by using the arguments object. In JavaScript, a function may be called with any number of arguments, no matter how many of them are listed.<br>
+            <em>example:<br>
+              var name = function(first,last) {<br>
+                alert(first + " " + last);<br>
+              }<br>
+              In this example "first" and "last" are both arguments to the name function. When we call the function like this: name("Sean","Pierce"); an alert will pop up concatenating the "first" and "last" argumanets to say "Sean Pierce"
+            </em>
+          </p>
+
+          <p class="hide def" id="para-def">
+            <em>noun</em><br>
+            A parameter in Javascript is similar to an argument in that it is passed within the parentesis of a function. <em>ex: name(param1,param2)</em>
           </p>
 
         <!-- end col 2 -->
@@ -63,7 +102,6 @@
       </div>
     <!-- end continaer -->
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="js/scripts.js"></script>
+
   </body>
 </html>

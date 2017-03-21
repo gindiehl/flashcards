@@ -1,6 +1,10 @@
 ul {
   list-style: none;
   padding: 0;
+  font-size: 16px;
+}
+li {
+  cursor: pointer;
 }
 h1 {
   margin-bottom: 80px;
@@ -8,9 +12,16 @@ h1 {
 strong {
   background-color: yellow;
 }
+em {
+  font-size: 16px;
+  color: #292F36;
+}
 .hide {
   display: none;
 }
 .show {
   display: block;
+}
+p {
+  font-size: 20px;
 }
