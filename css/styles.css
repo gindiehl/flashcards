@@ -1,0 +1,16 @@
+ul {
+  list-style: none;
+  padding: 0;
+}
+h1 {
+  margin-bottom: 80px;
+}
+strong {
+  background-color: yellow;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
